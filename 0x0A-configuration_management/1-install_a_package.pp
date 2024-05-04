@@ -1,6 +1,7 @@
-# install puppet-lint -v 2.5.0
+
+# Install a package using Puppet
 
 exec { 'puppet-lint':
-  command => '/usr/bin/apt-get -y install puppet-lint -v 2.5.0',
+  command => '/bin/gem install puppet-lint -v 2.5.0',
 }
 
