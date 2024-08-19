@@ -6,7 +6,7 @@ Duration:
 To resolve the problem it took 4 hours from 14:00 to 18:00 WAT
 
 Impact:
-I was stucked to the ghost mode model and couldn't log into my web app and few users were affected by this bug
+I was stuck to the ghost mode model and couldn't log into my web app and few users were affected by this bug
 
 Root cause and resolution:
 When I attempt to enhance security, I add a more complex login method to the website's backend. When someone tries to log in, an encrypted code is generated and sent to the server. The server decrypts it and then re-encrypts it before sending it back to the client. If the client is unable to decrypt it, the login fail; otherwise, the process continues.
